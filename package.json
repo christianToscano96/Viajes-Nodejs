@@ -1,0 +1,21 @@
+{
+  "name": "agenciadeviajes",
+  "version": "1.0.0",
+  "description": "aprendiendo node js, express y swquelize",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon server"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/christianToscano96"
+  },
+  "author": "Christian Toscano",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "express": "^4.17.1",
+    "nodemon": "^2.0.1",
+    "pug": "^2.0.4"
+  }
+}
