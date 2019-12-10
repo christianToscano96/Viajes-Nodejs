@@ -7,6 +7,12 @@ const routes = require('./routes');
 //configuacion
 const configs = require('./config');
 
+//base de datos
+const db = require('./config/database');
+
+// db.authenticate()
+//     .then(() => console.log('conectado'))
+//     .catch(error => console.log(error));
 
 //configurar express
 const app = express();
